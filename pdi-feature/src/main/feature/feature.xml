@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.3.0" name="pdi-features">
+    <feature name="pdi-feature" description="Pentaho Data Integration Feature" version="1.0.0.SNAPSHOT">
+        <bundle>wrap:mvn:org.codehaus.woodstox/woodstox-core-asl/4.4.1\$overwrite=merge&amp;Export-Package=com.ctc.wstx.exc,*&amp;Private-Package=</bundle>
+
+    </feature>
+    </features>

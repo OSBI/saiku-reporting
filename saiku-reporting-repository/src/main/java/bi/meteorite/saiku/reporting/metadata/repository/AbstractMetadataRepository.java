@@ -7,7 +7,6 @@ import org.apache.commons.lang.StringUtils;
 
 import org.pentaho.metadata.model.Domain;
 import org.pentaho.metadata.model.LogicalModel;
-import org.pentaho.metadata.model.thin.ModelInfoComparator;
 import org.pentaho.metadata.repository.IMetadataDomainRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

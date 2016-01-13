@@ -1,8 +1,9 @@
 package bi.meteorite.saiku.reporting.metadata.repository.model;
 
-import bi.meteorite.saiku.reporting.metadata.repository.model.MetadataModel;
 import bi.meteorite.saiku.reporting.metadata.repository.objects.Category;
 import bi.meteorite.saiku.reporting.metadata.repository.objects.ICategory;
+
+import java.util.Comparator;
 
 /**
  * Created by bugg on 12/01/16.
@@ -154,4 +155,7 @@ public class MetadataModelImpl implements MetadataModel {
   public void setDescription(String description) {
     this.description = description;
   }
+
+
+
 }

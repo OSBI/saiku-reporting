@@ -81,4 +81,8 @@ public class MetadataRepositoryImpl extends AbstractMetadataRepository {
   public Object getExecutor(Object query, Map<String, Object> inputs, IMetadataRepository metadataRepository) {
     return null;
   }
+
+  public void setMbr(IMemoryBasedMetadataDomainRepository mbr) {
+    this.mbr = mbr;
+  }
 }

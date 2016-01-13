@@ -6,9 +6,11 @@
   <artifactId>saiku-reporting</artifactId>
   <version>1.0-SNAPSHOT</version>
   <modules>
+    <module>pdi-feature</module>
     <module>saiku-reporting-api</module>
     <module>saiku-reporting-repository</module>
     <module>saiku-reporting-feature</module>
+    <module>pdi-test</module>
   </modules>
   <packaging>pom</packaging>
 
